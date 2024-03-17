@@ -2,7 +2,7 @@ repo_name: LaggAt/home-assistant-core
 report_id: c786e1a4891fb72e74ae6692377833ed
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-17T14:00:43+00:00'
+timestamp: '2024-03-17T14:04:39+00:00'
 requested_by: LaggAt
 provider: github
 branch: feature/govee-led-strips
