@@ -1,0 +1,2200 @@
+repo_name: LaggAt/home-assistant-core
+report_id: c786e1a4891fb72e74ae6692377833ed
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T14:04:39+00:00'
+requested_by: LaggAt
+provider: github
+branch: feature/govee-led-strips
+detected_tools_count: 148
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2018-01-10 03:51:35.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 2.11.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-22 23:11:24.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: Google Cloud Pub/Sub
+  description: Global service for real-time and reliable messaging and streaming data
+  website_url: https://cloud.google.com/pubsub/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/6253/pubsub.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Allen Porter
+  last_updated_on: 2020-10-21 08:17:49.000000000 Z
+- name: MQTT
+  description: A machine-to-machine Internet of Things connectivity protocol
+  website_url: http://mqtt.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/3670/mqtticon-large_400x400.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  version: 4.0.9
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Tomas Kislan
+  last_updated_on: 2019-08-20 09:56:11.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.3.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-10-13 13:43:58.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Robbie Trencheny
+  last_updated_on: 2019-04-04 04:44:15.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/.github/workflows/ci.yaml
+  detection_source: ".github/workflows/ci.yaml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2020-10-19 15:41:58.000000000 Z
+- name: Netdata
+  description: Monitor your servers, containers, and applications, in high-resolution
+    and in real-time
+  website_url: https://www.netdata.cloud/
+  version: 0.2.0
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/5766/default_041dc1823b117aa375e2976df130a74145238058.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Jürgen Haas
+  last_updated_on: 2020-06-22 14:29:29.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Erik Montnemery
+  last_updated_on: 2020-10-17 16:22:58.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2019-11-05 05:21:52.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.6.0
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-08-29 05:59:24.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: StatsD
+  description: Simple daemon for easy stats aggregation
+  website_url: https://github.com/etsy/statsd/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/932/default_b8c7d49298132d46fbef113905bcba1896158113.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Colin O'Dell
+  last_updated_on: 2020-02-24 21:46:07.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-07-14 07:29:56.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Pascal Vizeli
+  last_updated_on: 2019-07-08 12:00:24.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-10-03 08:11:22.000000000 Z
+- name: isort
+  description: A Python utility / library to sort imports
+  website_url: https://pycqa.github.io/isort/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-23 14:44:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 2.7.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-08-24 10:47:55.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-15 14:28:51.000000000 Z
+- name: Vultr
+  description: Deploy Cloud Servers, Bare Metal, and Storage worldwide
+  website_url: https://www.vultr.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Cloud Hosting
+  image_url: https://img.stackshare.io/service/2510/QCZNyljQ_400x400.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Adam Cooper
+  last_updated_on: 2017-11-05 13:10:14.000000000 Z
+- name: Coinbase
+  description: Integrate bitcoin payments into your website or application
+  website_url: https://www.coinbase.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Bitcoin Services
+  image_url: https://img.stackshare.io/service/2346/fLpdtiaZ.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: J. Nick Koston
+  last_updated_on: 2020-04-21 22:38:43.000000000 Z
+- name: MessageBird
+  description: Making business communications feel as natural as communicating with
+    friends.
+  website_url: https://www.messagebird.com/
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Voice and SMS
+  image_url: https://img.stackshare.io/service/3963/319915-3e31123c8391e49a0f03b69030a6b671-medium_jpg.jpg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Rohan Kapoor
+  last_updated_on: 2019-04-05 04:29:29.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Alexei Chetroi
+  last_updated_on: 2020-09-29 00:37:56.000000000 Z
+- name: Twilio
+  description: Bring voice and messaging to your web and mobile applications.
+  website_url: http://www.twilio.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Voice and SMS
+  image_url: https://img.stackshare.io/service/130/VrwpNfjh_400x400.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Leonardo Figueiro
+  last_updated_on: 2020-08-24 12:15:07.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Leonardo Figueiro
+  last_updated_on: 2020-08-24 12:15:07.000000000 Z
+- name: Bandit
+  description: I write code and do math, sometimes at the same time. Ich bin in meiner
+    daten verheddert.
+  website_url: http://findingscience.com/rails/vanity/statistics/testing/2011/11/12/bandit:-a-b-testing-alternative-for-rails.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2571/DimQyv6-_normal.jpeg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2019-11-18 08:10:15.000000000 Z
+- name: JSONPath
+  website_url: http://goessner.net/articles/JsonPath/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4623/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.19.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_docs.txt
+  detection_source: requirements_docs.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-03-25 20:21:04.000000000 Z
+- name: blockchain
+  description: Bitcoin News, Information and Price Tweets
+  website_url: http://bitcoin.org
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5498/dWAbC2wg_normal.jpeg
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Rohan Kapoor
+  last_updated_on: 2019-04-05 04:29:29.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-10-13 00:17:30.000000000 Z
+- name: Mastodon.py
+  description: Python wrapper for the Mastodon API
+  package_url: https://pypi.org/project/Mastodon.py
+  version: 1.5.1
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-04-03 10:06:28.000000000 Z
+- name: PyChromecast
+  description: Python module to talk to Google Chromecast
+  package_url: https://pypi.org/project/PyChromecast
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: David Straub
+  last_updated_on: 2020-10-18 08:33:19.000000000 Z
+- name: PyDispatcher
+  description: Multi-producer-multi-consumer signal dispatching mechanism
+  package_url: https://pypi.org/project/PyDispatcher
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Tomer Figenblat
+  last_updated_on: 2020-09-03 14:58:31.000000000 Z
+- name: PyGithub
+  description: Use the full Github API v3
+  package_url: https://pypi.org/project/PyGithub
+  version: 1.43.8
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19957/default_f0290ff2792e2af7d13f5c82ed82206842ec288d.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Eduard van Valkenburg
+  last_updated_on: 2020-06-03 08:32:14.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: PyNaCl
+  description: Python binding to the Networking and Cryptography
+  package_url: https://pypi.org/project/PyNaCl
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20262/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Robbie Trencheny
+  last_updated_on: 2019-03-02 07:08:20.000000000 Z
+- name: PySocks
+  description: A Python SOCKS client module
+  package_url: https://pypi.org/project/PySocks
+  version: 1.7.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20098/default_5297f13e5d732665caff8f16d9bfcd71481f98b6.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Nikolay Vasilchuk
+  last_updated_on: 2019-10-31 19:07:07.000000000 Z
+- name: RestrictedPython
+  description: RestrictedPython is a defined subset of the Python language which allows
+    to provide a program input into a trusted environment
+  package_url: https://pypi.org/project/RestrictedPython
+  license: ZPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: aiobotocore
+  description: Async client for aws services using botocore and aiohttp
+  package_url: https://pypi.org/project/aiobotocore
+  version: 0.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20798/default_3af1d2878445b1b0d771d7e87e7010b7fe2194fc.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Paulus Schoutsen
+  last_updated_on: 2020-07-10 06:44:19.000000000 Z
+- name: aiodns
+  description: Simple DNS resolver for asyncio
+  package_url: https://pypi.org/project/aiodns
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20189/default_c5c395350b07388a35a5e9efffb0ea706d6e196d.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2019-05-07 19:32:05.000000000 Z
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Paulus Schoutsen
+  last_updated_on: 2020-10-19 08:18:47.000000000 Z
+  vulnerabilities:
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via version
+    cve_id: CVE-2023-49081
+    cve_url: https://github.com/advisories/GHSA-q3qx-c6g2-7pw2
+    detected_date: Nov 28
+    severity: high
+    first_patched: 3.9.0
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: AIOHTTP has problems in HTTP parser (the python one, not llhttp)
+    cve_id: CVE-2023-47627
+    cve_url: https://github.com/advisories/GHSA-gfw2-4jvh-wgfg
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp has vulnerable dependency that is vulnerable to request smuggling
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pjjw-qhg8-p2p9
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via method
+    cve_id: CVE-2023-49082
+    cve_url: https://github.com/advisories/GHSA-qvrw-v9rv-5rjx
+    detected_date: Nov 28
+    severity: moderate
+    first_patched: 3.9.0
+  - name: 'Withdrawn: Denial of Service in aiohttp'
+    cve_id: CVE-2022-33124
+    cve_url: https://github.com/advisories/GHSA-rwqr-c348-m5wr
+    detected_date: Jun 26
+    severity: moderate
+    first_patched:
+  - name: aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp
+      HTTP request parser
+    cve_id: CVE-2023-37276
+    cve_url: https://github.com/advisories/GHSA-45c4-8wx5-qw6w
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 3.8.5
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: "`aiohttp` Open Redirect vulnerability (`normalize_path_middleware` middleware)"
+    cve_id: CVE-2021-21330
+    cve_url: https://github.com/advisories/GHSA-v6wp-4m6f-gcjg
+    detected_date: Aug 22
+    severity: low
+    first_patched: 3.7.4
+  - name: Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding`
+      differing in C and Python fallbacks
+    cve_id: CVE-2023-47641
+    cve_url: https://github.com/advisories/GHSA-xx9p-xxvh-7g8j
+    detected_date: Nov 15
+    severity: low
+    first_patched: 3.8.0
+- name: aiohttp_cors
+  description: CORS support for aiohttp
+  package_url: https://pypi.org/project/aiohttp_cors
+  version: 0.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Jc2k
+  last_updated_on: 2020-09-14 12:18:43.000000000 Z
+- name: apprise
+  description: Push Notifications that work with just about every platform!
+  package_url: https://pypi.org/project/apprise
+  version: 0.8.9
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Raman Gupta
+  last_updated_on: 2020-10-05 08:24:18.000000000 Z
+  vulnerabilities:
+  - name: CWE-730 Regex injection with IFTTT Plugin
+    cve_id: CVE-2021-39229
+    cve_url: https://github.com/advisories/GHSA-qhmp-h54x-38qr
+    detected_date: Sep 21
+    severity: high
+    first_patched: 0.9.5.1
+- name: astroid
+  description: An abstract syntax tree for Python with inference support
+  package_url: https://pypi.org/project/astroid
+  version: 2.4.2
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20125/default_63b818b0ea63c702db9131c12dd2fd2fad35ca3b.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-08-29 05:59:24.000000000 Z
+- name: async_timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async_timeout
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20164/default_276a7de3563ddddf1b3e6ed0d5beb13ffce20a9a.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: asynctest
+  description: Enhance the standard unittest package with features for testing asyncio
+    libraries
+  package_url: https://pypi.org/project/asynctest
+  version: 0.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-15 14:28:51.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 19.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: av
+  description: Pythonic bindings for FFmpeg's libraries
+  package_url: https://pypi.org/project/av
+  version: 8.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ryan Kraus
+  last_updated_on: 2015-08-30 02:19:52.000000000 Z
+- name: azure-eventhub
+  description: Microsoft Azure Event Hubs Client Library for Python
+  package_url: https://pypi.org/project/azure-eventhub
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Heine Furubotten
+  last_updated_on: 2020-10-03 12:19:39.000000000 Z
+- name: baidu-aip
+  description: Baidu AIP SDK
+  package_url: https://pypi.org/project/baidu-aip
+  version: 1.6.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Rohan Kapoor
+  last_updated_on: 2019-04-05 04:29:29.000000000 Z
+- name: bandit
+  description: Security oriented static analyser for python code
+  package_url: https://pypi.org/project/bandit
+  version: 1.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2019-11-18 08:10:15.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  version: 3.1.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-22 18:48:25.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-08-27 11:56:20.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.9.252
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: finnysamuel
+  last_updated_on: 2020-01-26 23:25:42.000000000 Z
+- name: caldav
+  description: CalDAV
+  package_url: https://pypi.org/project/caldav
+  version: 0.6.1
+  license: GPL-2.0+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Mike Megally
+  last_updated_on: 2019-04-16 21:30:40.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2020.6.20
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-27 10:45:17.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: ciso8601
+  description: Fast ISO8601 date time parser for Python written in C
+  package_url: https://pypi.org/project/ciso8601
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: colorlog
+  description: Log formatting with colors!
+  package_url: https://pypi.org/project/colorlog
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19948/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-23 10:25:54.000000000 Z
+- name: construct
+  description: A powerful declarative symmetric parser/builder for binary data
+  package_url: https://pypi.org/project/construct
+  version: 2.9.45
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2018-10-10 21:52:45.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: '5.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-14 06:34:18.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 2.9.2
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+  vulnerabilities:
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: CVE-2023-0286
+    cve_url: https://github.com/advisories/GHSA-x4qr-2fvf-3mr5
+    detected_date: Feb 9
+    severity: high
+    first_patched: 39.0.1
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: RSA decryption vulnerable to Bleichenbacher timing vulnerability
+    cve_id: CVE-2020-25659
+    cve_url: https://github.com/advisories/GHSA-hggm-jpg3-v476
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '3.2'
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: Cipher.update_into can corrupt memory if passed an immutable python object
+      as the outbuf
+    cve_id: CVE-2023-23931
+    cve_url: https://github.com/advisories/GHSA-w7pp-m8wf-vj6r
+    detected_date: Feb 8
+    severity: moderate
+    first_patched: 39.0.1
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
+    detected_date: Jun 3
+    severity: low
+    first_patched: 41.0.0
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+- name: dacite
+  description: Simple creation of data classes from dictionaries
+  package_url: https://pypi.org/project/dacite
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20814/default_12fc958f2a2530eaf01762405bed2c16b93a422d.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Florian Lagg
+  last_updated_on: 2020-10-04 23:49:53.000000000 Z
+- name: datadog
+  description: The Datadog Python library
+  package_url: https://pypi.org/project/datadog
+  version: 0.15.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20359/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Jürgen Haas
+  last_updated_on: 2020-06-22 14:29:29.000000000 Z
+- name: defusedxml
+  description: XML bomb protection for Python stdlib modules
+  package_url: https://pypi.org/project/defusedxml
+  version: 0.6.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2019-05-08 15:04:37.000000000 Z
+- name: discord.py
+  description: A python wrapper for the Discord API
+  package_url: https://pypi.org/project/discord.py
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20460/default_9a2df92d685d6540be25228e6b33cb090554923a.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: On Freund
+  last_updated_on: 2020-09-18 13:28:39.000000000 Z
+- name: distro
+  description: Distro - an OS platform information API
+  package_url: https://pypi.org/project/distro
+  version: 1.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20579/default_c2fe08b928beca268da55c7fc17121eb06b5e794.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-04-23 23:00:17.000000000 Z
+- name: emoji
+  description: Emoji for Python
+  package_url: https://pypi.org/project/emoji
+  version: 0.5.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20228/default_ac3896467e151a154f15419dbab3ee7694c7ddf3.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Tom Brien
+  last_updated_on: 2020-06-21 16:12:15.000000000 Z
+- name: ephem
+  description: Compute positions of the planets and stars
+  package_url: https://pypi.org/project/ephem
+  version: 3.7.7
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2019-11-14 11:01:53.000000000 Z
+- name: flake8-docstrings
+  description: Extension for flake8 which uses pydocstyle to check docstrings
+  package_url: https://pypi.org/project/flake8-docstrings
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-10-03 08:11:22.000000000 Z
+- name: geopy
+  description: Python Geocoding Toolbox
+  package_url: https://pypi.org/project/geopy
+  version: 1.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20597/default_765f8741ddac0d2e816e17438b35e7fda5019b4a.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-04-11 13:39:09.000000000 Z
+- name: getmac
+  description: Get MAC addresses of remote hosts and local interfaces
+  package_url: https://pypi.org/project/getmac
+  version: 0.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-04-11 10:47:13.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 1.6.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Florian Lagg
+  last_updated_on: 2020-10-21 18:54:23.000000000 Z
+- name: google-cloud-pubsub
+  description: Google Cloud Pub/Sub API client library
+  package_url: https://pypi.org/project/google-cloud-pubsub
+  version: 0.39.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20317/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Allen Porter
+  last_updated_on: 2020-10-21 08:17:49.000000000 Z
+- name: googlemaps
+  description: Python client library for Google Maps Platform
+  package_url: https://pypi.org/project/googlemaps
+  version: 2.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Allen Porter
+  last_updated_on: 2020-10-21 08:17:49.000000000 Z
+- name: gpiozero
+  description: A simple interface to GPIO devices with Raspberry Pi
+  package_url: https://pypi.org/project/gpiozero
+  version: 1.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: J. Nick Koston
+  last_updated_on: 2020-10-13 19:02:52.000000000 Z
+- name: holidays
+  description: Generate and work with holidays in Python
+  package_url: https://pypi.org/project/holidays
+  version: 0.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20770/default_2c6d181a26f9d1a50f0d15ef87ca0ca3bed53831.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: MikeTsenatek
+  last_updated_on: 2020-07-27 06:17:40.000000000 Z
+- name: httplib2
+  description: A comprehensive HTTP client library
+  package_url: https://pypi.org/project/httplib2
+  version: 0.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19914/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: J. Nick Koston
+  last_updated_on: 2020-10-10 15:28:13.000000000 Z
+  vulnerabilities:
+  - name: CRLF injection in httplib2
+    cve_id: CVE-2020-11078
+    cve_url: https://github.com/advisories/GHSA-gg84-qgv9-w4pq
+    detected_date: Aug 22
+    severity: low
+    first_patched: 0.18.0
+  - name: Regular Expression Denial of Service (REDoS) in httplib2
+    cve_id: CVE-2021-21240
+    cve_url: https://github.com/advisories/GHSA-93xj-8mrv-444m
+    detected_date: Aug 22
+    severity: low
+    first_patched: 0.19.0
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.16.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Paulus Schoutsen
+  last_updated_on: 2020-10-19 08:18:47.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in httpx
+    cve_id: CVE-2021-41945
+    cve_url: https://github.com/advisories/GHSA-h8pj-cxx2-jfg2
+    detected_date: Apr 30
+    severity: critical
+    first_patched: 0.23.0
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 1.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: influxdb
+  description: InfluxDB client
+  package_url: https://pypi.org/project/influxdb
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20259/default_116b0de1aa45d3061da895f792b82ef74d70a9df.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Jakub Bednář
+  last_updated_on: 2020-07-10 14:56:36.000000000 Z
+- name: jsonpickle
+  description: Python library for serializing any arbitrary object graph into JSON
+  package_url: https://pypi.org/project/jsonpickle
+  version: 1.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19994/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Tom
+  last_updated_on: 2020-09-08 06:37:44.000000000 Z
+  vulnerabilities:
+  - name: jsonpickle unsafe deserialization
+    cve_id: CVE-2020-22083
+    cve_url: https://github.com/advisories/GHSA-j66q-qmrc-89rx
+    detected_date: Feb 3
+    severity: critical
+    first_patched:
+- name: keyring
+  description: Store and access your passwords safely
+  package_url: https://pypi.org/project/keyring
+  version: 21.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19953/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-04-12 11:36:34.000000000 Z
+- name: keyrings.alt
+  description: Alternate keyring implementations
+  package_url: https://pypi.org/project/keyrings.alt
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20427/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Andrew Sayre
+  last_updated_on: 2020-10-05 20:12:38.000000000 Z
+- name: mutagen
+  description: Read and write audio tags for many formats
+  package_url: https://pypi.org/project/mutagen
+  version: 1.45.1
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20097/default_bb71ed9a6e40745c6e8fdd974744dc298eebc0f4.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Brett
+  last_updated_on: 2020-10-12 11:22:15.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.790'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Ville Skyttä
+  last_updated_on: 2020-10-13 00:17:30.000000000 Z
+- name: oauth2client
+  description: OAuth 2.0 client library
+  package_url: https://pypi.org/project/oauth2client
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19956/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-23 16:41:11.000000000 Z
+- name: paho-mqtt
+  description: MQTT version 3.1.1 client class
+  package_url: https://pypi.org/project/paho-mqtt
+  version: 1.5.0
+  license: EPL-1.0,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19959/default_8e2d118e1c4bbcbf4b6574d34693b916f2dc4040.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Paulus Schoutsen
+  last_updated_on: 2020-10-08 10:31:46.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.6.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Andrey
+  last_updated_on: 2018-07-07 14:48:02.000000000 Z
+- name: praw
+  description: PRAW
+  package_url: https://pypi.org/project/praw
+  version: 7.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20605/default_3aa7d93e5dadf8a0123c65abeccd198669792007.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-22 18:53:01.000000000 Z
+- name: prometheus_client
+  description: Python client for the Prometheus monitoring system
+  package_url: https://pypi.org/project/prometheus_client
+  version: 0.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20138/default_927321425328d95d5d3f0c8b9fe47f1a2cffb5bf.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Erik Montnemery
+  last_updated_on: 2020-10-17 16:22:58.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-22 23:18:05.000000000 Z
+- name: ptvsd
+  description: Remote debugging server for Python support in Visual Studio and Visual
+    Studio Code
+  package_url: https://pypi.org/project/ptvsd
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-06-20 12:25:02.000000000 Z
+- name: pure-python-adb
+  description: Pure python implementation of the adb client
+  package_url: https://pypi.org/project/pure-python-adb
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: py-cpuinfo
+  description: Get CPU info with pure Python 2 &amp; 3
+  package_url: https://pypi.org/project/py-cpuinfo
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20537/default_52d2f08f040a1790bf5567e89e8ae1d74d6ff118.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Alexei Chetroi
+  last_updated_on: 2020-09-07 03:10:15.000000000 Z
+- name: pycountry
+  description: ISO country
+  package_url: https://pypi.org/project/pycountry
+  version: 19.8.18
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20278/default_652c0d6bf7921ddf8ce908ae573d5eb3b8bff19f.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-10-21 09:01:11.000000000 Z
+- name: pydocstyle
+  description: Python docstring style checker
+  package_url: https://pypi.org/project/pydocstyle
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20507/default_0a4b1ff56fc84a423341df2dee7f169b1171f64d.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-08-31 08:20:39.000000000 Z
+- name: pylast
+  description: A Python interface to Last.fm and Libre.fm
+  package_url: https://pypi.org/project/pylast
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-22 16:15:30.000000000 Z
+- name: pymodbus
+  description: A fully featured modbus protocol stack in python
+  package_url: https://pypi.org/project/pymodbus
+  version: 2.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20774/default_1e60a441949859da652a857010d3941324cbcc48.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: jan iversen
+  last_updated_on: 2020-03-29 17:39:30.000000000 Z
+- name: pyotp
+  description: Python One Time Password Library
+  package_url: https://pypi.org/project/pyotp
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20608/default_5375631ed98c554ed8d98d9ae6acd7ae13b3515e.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: mvn23
+  last_updated_on: 2020-04-02 17:29:41.000000000 Z
+- name: pyserial
+  description: Python Serial Port Extension
+  package_url: https://pypi.org/project/pyserial
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19872/default_60b55c6e7ce7a6f609d0d19bae5378c2c75789d0.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Alexei Chetroi
+  last_updated_on: 2020-05-05 02:33:21.000000000 Z
+- name: pyserial-asyncio
+  description: Python Serial Port Extension - Asynchronous I/O support
+  package_url: https://pypi.org/project/pyserial-asyncio
+  version: '0.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20510/default_dcfd16fdf7f5ec686bd8934c31e6383c6da8356b.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Jeff Irion
+  last_updated_on: 2020-10-21 07:51:13.000000000 Z
+- name: pysnmp
+  description: SNMP library for Python
+  package_url: https://pypi.org/project/pysnmp
+  version: 4.4.12
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20445/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2019-11-01 13:28:39.000000000 Z
+- name: pytest-aiohttp
+  description: Pytest plugin for aiohttp support
+  package_url: https://pypi.org/project/pytest-aiohttp
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-15 14:28:51.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 2.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-15 14:28:51.000000000 Z
+- name: pytest-timeout
+  description: Py.test plugin to abort hanging tests
+  package_url: https://pypi.org/project/pytest-timeout
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-15 14:28:51.000000000 Z
+- name: pytest-xdist
+  description: Pytest xdist plugin for distributed testing and loop-on-failing modes
+  package_url: https://pypi.org/project/pytest-xdist
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20307/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-15 14:28:51.000000000 Z
+- name: python-digitalocean
+  description: Digitalocean.com API to manage Droplets and Images
+  package_url: https://pypi.org/project/python-digitalocean
+  version: 1.13.2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: python-gitlab
+  description: Interact with GitLab API
+  package_url: https://pypi.org/project/python-gitlab
+  version: 1.6.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20108/default_534fc53c55ef7fbc50263daa8ea6618be3c2b37d.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: python-mpd2
+  description: A Python MPD client library
+  package_url: https://pypi.org/project/python-mpd2
+  version: 1.0.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: python-slugify
+  description: A Python Slugify application that handles Unicode
+  package_url: https://pypi.org/project/python-slugify
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19986/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Kevin Fronczak
+  last_updated_on: 2020-07-24 14:55:54.000000000 Z
+- name: python-telegram-bot
+  description: We have made you a wrapper you can't refuse
+  package_url: https://pypi.org/project/python-telegram-bot
+  version: 11.1.0
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20123/default_c68325cce20e10071c4ad3e54c2ee159ac131c11.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: python-vlc
+  description: VLC bindings for python
+  package_url: https://pypi.org/project/python-vlc
+  version: 1.1.2
+  license: LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: python-whois
+  description: Whois querying and parsing of domain registration information
+  package_url: https://pypi.org/project/python-whois
+  version: 0.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Quentame
+  last_updated_on: 2020-10-21 14:42:07.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2020.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: pyupgrade
+  description: A tool to automatically upgrade syntax for newer versions
+  package_url: https://pypi.org/project/pyupgrade
+  version: 2.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Bas Nijholt
+  last_updated_on: 2020-08-08 10:36:12.000000000 Z
+- name: pywebpush
+  description: WebPush publication library
+  package_url: https://pypi.org/project/pywebpush
+  version: 1.9.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Adam Belebczuk
+  last_updated_on: 2020-09-22 09:24:22.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.24.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: requests-mock
+  description: Mock out responses from the requests package
+  package_url: https://pypi.org/project/requests-mock
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20365/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-05-03 00:09:44.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  version: 0.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: J. Nick Koston
+  last_updated_on: 2020-10-17 00:21:13.000000000 Z
+- name: ruamel.yaml
+  description: Ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation
+    of comments
+  package_url: https://pypi.org/project/ruamel.yaml
+  version: 0.15.100
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19918/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-03 17:18:01.000000000 Z
+- name: sendgrid
+  description: Twilio SendGrid library for Python
+  package_url: https://pypi.org/project/sendgrid
+  version: 6.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20325/default_0c9409de2ef424482d14f84cb95c9dab5c399c85.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-22 19:02:12.000000000 Z
+- name: sentry-sdk
+  description: Python client for Sentry
+  package_url: https://pypi.org/project/sentry-sdk
+  version: 0.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19998/default_b31141ac99e60278dc869f5a0490a63444b590d7.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-10-21 09:01:11.000000000 Z
+  vulnerabilities:
+  - name: Sentry SDK leaks sensitive session information when `sendDefaultPII` is
+      set to `True`
+    cve_id: CVE-2023-28117
+    cve_url: https://github.com/advisories/GHSA-29pr-6jr8-q5jm
+    detected_date: Mar 22
+    severity: high
+    first_patched: 1.14.0
+- name: shodan
+  description: Python library and command-line utility for Shodan
+  package_url: https://pypi.org/project/shodan
+  version: 1.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-04-08 11:12:18.000000000 Z
+- name: slackclient
+  description: Slack API clients for Web API and RTM API
+  package_url: https://pypi.org/project/slackclient
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20040/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-08-23 16:41:11.000000000 Z
+- name: speedtest-cli
+  description: Command line interface for testing internet bandwidth using speedtest.net
+  package_url: https://pypi.org/project/speedtest-cli
+  version: 2.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Allen Porter
+  last_updated_on: 2020-10-21 08:17:49.000000000 Z
+- name: sphinx-autodoc-typehints
+  description: Type hints
+  package_url: https://pypi.org/project/sphinx-autodoc-typehints
+  version: 1.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_docs.txt
+  detection_source: requirements_docs.txt
+  last_updated_by: Fabian Affolter
+  last_updated_on: 2020-03-25 20:21:04.000000000 Z
+- name: spotipy
+  description: Simple client for the Spotify Web API
+  package_url: https://pypi.org/project/spotipy
+  version: 2.16.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20447/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-26 06:21:12.000000000 Z
+  vulnerabilities:
+  - name: Path traversal in spotipy
+    cve_id: CVE-2023-23608
+    cve_url: https://github.com/advisories/GHSA-q764-g6fm-555v
+    detected_date: Jan 24
+    severity: moderate
+    first_patched: 2.22.1
+- name: stdlib-list
+  description: A list of Python Standard Libraries
+  package_url: https://pypi.org/project/stdlib-list
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Martin Hjelmare
+  last_updated_on: 2020-09-06 21:41:41.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.49.0
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test.txt
+  detection_source: requirements_test.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-09-25 12:29:27.000000000 Z
+- name: voluptuous
+  description: "# Voluptuous is a Python data validation library"
+  package_url: https://pypi.org/project/voluptuous
+  version: 0.12.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20149/default_29fd040eb57820a7b7a415b9eba1bba73c05d9c8.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Philip Allgaier
+  last_updated_on: 2020-09-21 15:43:35.000000000 Z
+- name: watchdog
+  description: Filesystem events monitoring
+  package_url: https://pypi.org/project/watchdog
+  version: 0.8.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19927/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Ernst Klamer
+  last_updated_on: 2019-10-23 06:31:43.000000000 Z
+- name: websocket-client
+  description: WebSocket client for Python. hybi13 is supported
+  package_url: https://pypi.org/project/websocket-client
+  version: 0.54.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: jjlawren
+  last_updated_on: 2020-10-01 07:57:45.000000000 Z
+- name: xmltodict
+  description: Makes working with XML feel like you are working with JSON
+  package_url: https://pypi.org/project/xmltodict
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19902/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Josef Schlehofer
+  last_updated_on: 2019-04-21 04:52:20.000000000 Z
+- name: yamllint
+  description: A linter for YAML files
+  package_url: https://pypi.org/project/yamllint
+  version: 1.24.2
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20506/default_dcfd16fdf7f5ec686bd8934c31e6383c6da8356b.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_test_pre_commit.txt
+  detection_source: requirements_test_pre_commit.txt
+  last_updated_by: Bas Nijholt
+  last_updated_on: 2020-08-08 11:18:37.000000000 Z
+- name: yarl
+  description: Yet another URL library
+  package_url: https://pypi.org/project/yarl
+  version: 1.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20083/default_d8789f2f1b5b4e9994bef68371453a20460b4d6e.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Franck Nijhof
+  last_updated_on: 2020-07-31 20:06:02.000000000 Z
+- name: youtube_dl
+  description: YouTube video downloader
+  package_url: https://pypi.org/project/youtube_dl
+  version: 2020.09.20
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20150/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Josef Schlehofer
+  last_updated_on: 2020-09-21 08:49:16.000000000 Z
+- name: zeep
+  description: A modern/fast Python SOAP client based on lxml / requests
+  package_url: https://pypi.org/project/zeep
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20067/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: Jason Hunter
+  last_updated_on: 2020-10-19 03:29:53.000000000 Z
+- name: zeroconf
+  description: Pure Python Multicast DNS Service Discovery Library
+  package_url: https://pypi.org/project/zeroconf
+  version: 0.28.6
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20233/default_cb6acd0ec3f2884b905de7c1ca3a23418f37ebb3.png
+  detection_source_url: https://github.com/LaggAt/home-assistant-core/blob/feature/govee-led-strips/requirements_all.txt
+  detection_source: requirements_all.txt
+  last_updated_by: J. Nick Koston
+  last_updated_on: 2020-10-13 19:02:52.000000000 Z
